@@ -17,6 +17,7 @@
 <!-- Header -->
   <main class="container-fluid">
     <header class="" style="background-color: #fafaf9;">
+
     <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-lg navbar-light";>
         <div class="container-fluid">
@@ -56,22 +57,28 @@
  </header>
 
  <!-- Banner Section -->
- <section class="banner-1  d-flex" style="background-color: #fafaf9;">
-    <div class="banner-text col-6" >
-      <h1 class="h1-font-banner" style="color: #FABE4C;"> BE THE PENGUINS</h1> 
-      <h1 class="h1-font-banner">OF WINTER</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, similique. </p>
-      <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
-    </div> 
-  
-    <div class="col-3"></div>
-    
-    <div class="banner-women col-6">
-      <img class="img-fluid" src="images/women-banner-bg-circle-.svg" alt="" style="max-width:50%;">
-   </div> 
-  </section>   
+ <section>
+  <div class="card mb-3 d-flex justify-content-evenly" style="background-color: #fafaf9; border:0px; padding-bottom: 2rem;" >
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body" style="padding-top: 20px;">
+          <h1 class="h1-font-banner" style="color: #FABE4C;"> BE THE PENGUINS</h1> 
+          <h1 class="h1-font-banner">OF WINTER</h1>
+          <p class="p-font-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, similique. </p>
+        </div>
+        <div class="card-footer my-card-footer" style="border-top: 0px solid; background-color:#fafaf9; padding-left: 2.5rem;">
+         <a class="btn btn-primary btn-lg my-btn top-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <img src="images/women-banner-bg-circle-.svg" alt="...">
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- 1st Section begins -->
+<!-- 1st Section begins -->
   <section class="container container-fluid women-jacket" id="products" style="padding-top: 5rem;">
     <h1 class="h1-font-women-jacket" style="color: #504343;"> WOMAN JACKET</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -232,7 +239,7 @@
         </div>
       </div>
       
-      <div class="img-fluid d-flex ms-auto">
+      <div class="img-fluid d-flex ms-auto shopping-img">
         <img src="images/logo-icons/shopping.svg" alt="">
       </div>
     </div>
@@ -241,10 +248,10 @@
 
 <!-- 4th Section - Added section -->
 
-<section class="container" id="contact-us" style="padding: 200px 0px;">
+<section class="container container-contact-us d-flex justify-content-around" id="contact-us" style="padding: 200px 20px; ">
 
   <div id="my-form d-flex ms-auto">
-      <h3 class="my-form-title">Contact us</h3>
+      <h3 class="my-form-title" style="color:green;">Contact us</h3>
         
       <div class="">
           <label for="Name" class="form-label" style="padding-right: 32px;">Your name</label>
@@ -264,11 +271,16 @@
       <div class="">
         <button type="submit" class=" btn btn-success">Send Message</button>
       </div>
+      
+      
+  </div>
+  <div class="img-fluid envelope">
+    <img src="images/envelope.png" alt="">
   </div>
 </section>
 </main>
 
-<footer style="margin-left:50%; font-size:150%;">@2021 Penguin Fashion</footer>
+<footer class="d-flex justify-content-around" style="font-size:1rem;">@2021 Penguin Fashion</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>

@@ -1,8 +1,14 @@
 .h1-font-banner{
     font-family: 'Bebas Neue', cursive;
     font-size:4rem;
-    
+    padding-left:3%;
 }
+
+.p-font-banner, .top-btn{
+    padding-left:3%;
+}
+
+
 
 .h1-font-women-jacket, .h1-font-men-jacket {
     font-family: 'Bebas Neue', cursive;
@@ -67,8 +73,15 @@
 }
 
 
-
-
+.container-contact-us{
+    box-shadow: 10px 10px 20px lightgrey;
+    /* margin:2%;
+    padding: 1%; */
+    margin-top:5% !important;
+    margin-bottom:5%;
+    border-radius: 10px !important;
+    border: 1px solid lightgray;
+}
 
 .my-card-shadow{
     box-shadow: 10px 10px 20px lightgrey;
@@ -81,3 +94,21 @@
     border:0px !important;
 }
 
+
+
+@media only screen and (max-width: 768px) {
+    .col-md-4 img{
+        display:block;
+        width:300px !important;
+    }
+
+    .shopping-img img{
+        display:none;
+    }
+    .envelope img{
+        display:block;
+        width:150px;
+    }
+ 
+
+}
