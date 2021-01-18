@@ -1,0 +1,39 @@
+body{
+    background-color: #fafaf9;
+}
+
+
+.h1-font-banner{
+    font-family: 'Bebas Neue', cursive;
+    font-size:4rem;
+}
+
+.banner-1{
+    padding-top: 3rem !important;
+    /* padding-bottom: 1rem !important; */
+    
+}
+.banner-text{
+    margin-left: 3rem !important;
+    max-width: 25rem; 
+}
+
+.my-logo{
+    margin-left: 3rem !important;
+}
+.shopping-cart{
+    padding: 10px 15px 10px 5px;
+    
+}
+.my-btn{
+    /* border: 1px solid #A4BC46; */
+    border: 1px solid #d5dea2;
+    border-radius: 10px;
+    /* background-image: linear-gradient( #e3ecbc, #A4BC46,  #A4BC46); */
+    background-color: #A4BC46;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
