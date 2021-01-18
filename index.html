@@ -10,40 +10,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   
-  </head>
+</head>
 
 <body>
 
 <!-- Header -->
-<main class="container-fluid">
-<header class="" style="background-color: #fafaf9;">
+  <main class="container-fluid">
+    <header class="" style="background-color: #fafaf9;">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light";>
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <div class="">
-          <a class="navbar-brand my-logo img-fluid" href="#"> <img src="/images/logo-icons/logo.png" alt="" style= "width:25%;"></a>
-            <img class="img-fluid" src="images/logo-icons/bg-dot.svg" alt="" style= "width:10%;">
-          </div>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <nav class="navbar navbar-expand-lg navbar-light";>
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="">
+              <a class="navbar-brand my-logo img-fluid" href="#"> <img src="/images/logo-icons/logo.png" alt="" style= "width:25%;"></a>
+                <img class="img-fluid" src="images/logo-icons/bg-dot.svg" alt="" style= "width:10%;">
+            </div>
+            
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             
             <li class="nav-item px-10">
               <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong> </a>
             </li>
             
             <li class="nav-item px-10">
-              <a class="nav-link" href="#"> <strong>Product</strong> </a>
+              <a class="nav-link" href="#products"> <strong>Product</strong> </a>
             </li>
             
             <li class="nav-item px-10">
-              <a class="nav-link" href="#"><strong>About us</strong></a>
+              <a class="nav-link" href="#about-us"><strong>About us</strong></a>
             </li>
             
             <li class="nav-item px-10">
-              <a class="nav-link" href="#"><strong>Contact us </strong></a>
+              <a class="nav-link" href="#contact-us"><strong>Contact us </strong></a>
             </li>
 
           </ul>
@@ -55,57 +57,69 @@
 
  <!-- Banner Section -->
  <section class="banner-1  d-flex" style="background-color: #fafaf9;">
-  <div class="banner-text col-6" >
-    <h1 class="h1-font-banner" style="color: #FABE4C;"> BE THE PENGUINS</h1> 
-    <h1 class="h1-font-banner">OF WINTER</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, similique. </p>
-    <!-- <button type="button" class="btn btn-primary btn-lg">Large button</button> -->
-  <!-- <a class="btn btn-primary btn-lg my-btn" href=""> <i class="fas fa-shopping-cart shopping-cart"></i>BUY NOW</a> -->
-  <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
-  </div> 
-  <div class="col-3"></div>
-  <div class="banner-women col-6">
+    <div class="banner-text col-6" >
+      <h1 class="h1-font-banner" style="color: #FABE4C;"> BE THE PENGUINS</h1> 
+      <h1 class="h1-font-banner">OF WINTER</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, similique. </p>
+      <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
+    </div> 
+  
+    <div class="col-3"></div>
+    
+    <div class="banner-women col-6">
       <img class="img-fluid" src="images/women-banner-bg-circle-.svg" alt="" style="max-width:50%;">
    </div> 
   </section>   
 
-  <!-- 2nd Section begins -->
-  <section class="container container-fluid women-jacket " style="padding-top: 5rem;">
+  <!-- 1st Section begins -->
+  <section class="container container-fluid women-jacket" id="products" style="padding-top: 5rem;">
     <h1 class="h1-font-women-jacket" style="color: #504343;"> WOMAN JACKET</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/women-jacket-1.svg" class="card-img-top" alt="...">
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Yellow Coat Jacket</h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
           </div>
         </div>
       </div>
+      
       <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/women-jacket-2.svg" class="card-img-top" alt="...">
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Ladies Jacket</h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
           </div>
         </div>
       </div>
+
       <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/women-jacket-3.svg" class="card-img-top" alt="...">
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Woman Leather Jacket </h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <!-- <button class="buy-now-button">Buy Now >></button> -->
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
           </div>
         </div>
       </div>
@@ -114,17 +128,148 @@
   </section>
 
 
+  <!-- 2nd Section begins -->
+  <section class="container container-fluid" style="padding: 5rem 0rem;">
+    <h1 class="h1-font-men-jacket" style="color: #504343;"> MAN JACKET</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/men-jacket-1.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Snowboard Jacket Mens</h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <!-- <button class="buy-now-button">Buy Now >></button> -->
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/men-jacket-2.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Man Leather Jackets</h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <!-- <button class="buy-now-button">Buy Now >></button> -->
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-corner">
+          <div class="img-bg d-flex">
+            <img src="images/men-jacket-3.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title my-card-title">Man Casual Jackets</h5>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+          <div class="card-footer d-flex my-card-footer justify-content-around" style="background-color: white; border-top: 0px solid;">
+            <h1 style="color: #FABE4C;"><strong>$234</strong></h1>
+            <!-- <button class="buy-now-button">Buy Now >></button> -->
+            <a class="btn btn-primary btn-lg my-btn" href=""> <img class="shopping-cart" src="images/logo-icons/shopping-cart.png" alt="" width="30%">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3rd section begins -->
+  <section class="container container-fluid" id="about-us" style="padding-top: 5rem;">
+    <div class="top-container d-flex">
+      <div class="my-card-stack">
+        <!-- card-1 -->
+        <div class="card mb-3 card-no-border" style="max-width: 540px;">
+          <div class="row g-0 my-card-shadow">
+            <div class="col-md-4 d-flex justify-content-around">
+              <img src="images/logo-icons/icon-1.svg" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title my-card-title">Find the Perfect Fit</h5>
+                <p class="card-text">Everybody is different, which is why we offer styles for every body</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-2 -->
+        <div class="card mb-3 card-no-border" style="max-width: 540px;">
+          <div class="row g-0 my-card-shadow">
+            <div class="col-md-4 d-flex justify-content-around">
+              <img src="images/logo-icons/icon-2.svg" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title my-card-title">Free Exchanges</h5>
+                <p class="card-text">One of the many reasons you can shop with peace of mind.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="card mb-3 card-no-border" style="max-width: 540px;">
+          <div class="row g-0 my-card-shadow">
+            <div class="col-md-4 d-flex justify-content-around">
+              <img src="images/logo-icons/icon-3.svg" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title my-card-title">Contact Our Seller</h5>
+                <p class="card-text">They are here to help you. That's quite literally what we pay them for.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="img-fluid d-flex ms-auto">
+        <img src="images/logo-icons/shopping.svg" alt="">
+      </div>
+    </div>
+  </section>
 
 
+<!-- 4th Section - Added section -->
 
+<section class="container" id="contact-us" style="padding: 200px 0px;">
 
-
-
-
-
-
-
+  <div id="my-form d-flex ms-auto">
+      <h3 class="my-form-title">Contact us</h3>
+        
+      <div class="">
+          <label for="Name" class="form-label" style="padding-right: 32px;">Your name</label>
+          <input type="text" id="Name" name="Name" class="..." required>
+      </div>
+      
+      <div class="">
+        <label for="Email" class="form-label" style="padding-right: 29px;">Your email</label>
+        <input type="text" id="Email" name="Email" class="..." required>
+      </div>
+    
+      <div class="">
+        <label for="Message" class="form-label" style="padding-right: 45px;">Message</label>
+        <input type="textarea" id="Email" name="Email" class="..." required>
+      </div>
+    
+      <div class="">
+        <button type="submit" class=" btn btn-success">Send Message</button>
+      </div>
+  </div>
+</section>
 </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<footer style="margin-left:50%; font-size:150%;">@2021 Penguin Fashion</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

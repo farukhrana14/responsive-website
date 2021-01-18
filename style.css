@@ -1,20 +1,19 @@
-body{
-    
-}
-
-
 .h1-font-banner{
     font-family: 'Bebas Neue', cursive;
     font-size:4rem;
     
 }
 
-.h1-font-women-jacket{
+.h1-font-women-jacket, .h1-font-men-jacket {
     font-family: 'Bebas Neue', cursive;
     font-size:3.25rem;
     
 }
 
+.form-label{
+    font-family: 'Bebas Neue', cursive;
+    font-size:1.5rem;
+}
 
 .banner-1{
     padding-top: 3rem !important;
@@ -40,9 +39,45 @@ body{
     /* background-image: linear-gradient( #e3ecbc, #A4BC46,  #A4BC46); */
     background-color: #A4BC46;
     font-weight: 500;
+   font-family: 'Roboto', sans-serif;
+}
+
+.card-corner{
+    border-radius: 1.25rem;
+    padding-bottom: 0.7rem;
+}
+
+.img-bg{
+    border: 2px solid #F1F1F1;
+    border-radius: 1.25rem;
+    background-color:#F1F1F1;
+    margin: 1rem;
+    height:25rem;
+}
+
+.img-bg img{
+    max-width: 210px; 
+    margin:auto;
+}
+
+.my-card-title, .my-form-title{
     font-family: 'Roboto', sans-serif;
-    
-    
-    
+    font-size:2rem;
+    font-weight: 800;
+}
+
+
+
+
+
+.my-card-shadow{
+    box-shadow: 10px 10px 20px lightgrey;
+    margin:2%;
+    padding: 1%;
+    border-radius: 10px !important;
+    border: 1px solid lightgray;
+}
+.card-no-border{
+    border:0px !important;
 }
 
